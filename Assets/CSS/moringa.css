@@ -100,7 +100,7 @@ img{
     max-width: 100%;
 }
 .container .card .content{
-    margin-left: 20px;
+    margin-left: 70px;
 }
 .container .card .contenta{
     margin-right: 20px;
@@ -112,6 +112,7 @@ img{
 .container.card .imgBx{
     max-width: 100%;
 }
+
 .cover{
     width: 200px;
     height: 400px;
@@ -119,39 +120,70 @@ img{
     display: flex;
     margin-right: 40px;
     margin-bottom: 10px;
-    
+    margin-left: 150px;
 }
 .box{
-    margin: 50px;
+    margin: 20px;
     width: 200px;
     height: 500px;
 }
 .boxone{
-    margin: 50px;
+    margin: 20px;
     width: 200px;
     height: 500px;
 }
 
 .boxtwo{
-    margin: 50px;
+    margin: 20px;
     width: 200px;
     height: 500px;
 .
 }
 .boxthree{
-    margin: 50px;
+    margin: 20px;
     width: 200px;
     height: 500px;
 }
 img{
-    width: 250px;
-    height: 200px;
+    width: 200px;
+    height: 150px;
 }
 
 .today{
-    margin-left: 45px;
+    margin-left: 170px;
 }
 .yesterday{
-    margin-top: 30px;
+    position: relative;
+    width: 1200px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: 80px;
 }
-
+.yesterday .cord{
+    max-width: 100%;
+    position: relative;
+    max-width: 1000px;
+    margin: 10px;
+    padding: 15px;
+    display: flex
+}
+}
+.yesterday .card .imgBY{
+    max-width: 1000px;
+    flex: 30px 200px 150px;
+}
+.yesterday .cord .imgBY img{
+    max-width: 100%;
+}
+.yesterday .card .contact{
+    margin-left: 20px;
+}
+.yesterday{
+    flex-direction: column;
+}
+.imgBY{
+    width: 2000px;
+}
