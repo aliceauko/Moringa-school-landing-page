@@ -70,6 +70,7 @@ button:hover{
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
+    
 }
 .active{
     background-color: white;
@@ -117,6 +118,7 @@ img{
     margin-top: 5px;
     display: flex;
     margin-right: 40px;
+    margin-bottom: 10px;
     
 }
 .box{
@@ -149,3 +151,7 @@ img{
 .today{
     margin-left: 45px;
 }
+.yesterday{
+    margin-top: 30px;
+}
+
