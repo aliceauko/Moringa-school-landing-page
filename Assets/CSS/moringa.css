@@ -10,11 +10,13 @@ header{
     background-color: white;
 }
 
+}
+
 li, a, button{
     font-family: 'Nunito',sans-serif;
     font-weight: 500;
     font-size: 16px;
-    color: gray;
+    color: grey;
     text-decoration: none;
 }
 header{
@@ -41,10 +43,11 @@ header{
     color: #EC4067;
 }
 button{
-    padding: 15px;
+    padding: 10px;
     background-color:#EC4067;
-    border: none;
-    border-radius: 15px;
+    border: 1;
+    border-radius: 10px;
+    border-color: #EC4067;
     cursor: pointer;
     transition: all 0.3s ease 0s;
     
@@ -64,6 +67,9 @@ button:hover{
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
+}
+.active{
+    background-color: aliceblue;
 }
 .container .card{
     position: relative;
