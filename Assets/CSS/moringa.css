@@ -137,6 +137,7 @@ img{
     margin: 20px;
     width: 200px;
     height: 500px;
+
 .
 }
 .boxthree{
@@ -171,7 +172,7 @@ img{
     display: flex
 }
 }
-.yesterday .card .imgBY{
+.yesterday .card .imgBy{
     max-width: 1000px;
     flex: 30px 200px 150px;
 }
@@ -184,6 +185,9 @@ img{
 .yesterday{
     flex-direction: column;
 }
-.imgBY{
-    width: 2000px;
+
+.yay{
+    margin-left: 170px;
+    margin-top: 50px;
+    margin-bottom: 5px;
 }
