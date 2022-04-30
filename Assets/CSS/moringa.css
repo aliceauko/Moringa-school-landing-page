@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap');
+*{
+    font-family: 'Nunito',sans-serif;
+}
 
 header{
     box-sizing: 0;
@@ -53,5 +56,43 @@ button:hover{
     font-size: 30px;
     color: #EC4067;
 }
+.container{
+    position: relative;
+    width: 1200px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.container .card{
+    position: relative;
+    max-width: 1000px;
+    margin: 10px;
+    padding: 15px;
+    display: flex
+}
+img{
+    width: 300px;
+}
+.container .card .imgBx{
+    max-width: 1000px;
+    flex: 30px 200px 150px;
+}
+.container .card .imgBx img{
+    max-width: 100%;
+}
+.container .card .content{
+    margin-left: 20px;
+}
+.container .card .contenta{
+    margin-right: 20px;
+}
+.container{
+    flex-direction: column;
+}
 
+.container.card .imgBx{
+    max-width: 100%;
+}
 
