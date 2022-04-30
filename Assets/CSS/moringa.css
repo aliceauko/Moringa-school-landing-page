@@ -111,4 +111,35 @@ img{
 .container.card .imgBx{
     max-width: 100%;
 }
+.cover{
+    width: 900px;
+    height: 400px;
+    margin-top: 50px;
+    display: flex;
+}
+.box{
+    margin: 20px;
+    width: 300px;
+    height: 500px;
+}
+.boxone{
+    margin: 20px;
+    width: 300px;
+    height: 500px;
+}
 
+.boxtwo{
+    margin: 20px;
+    width: 300px;
+    height: 500px;
+.
+}
+.boxthree{
+    margin: 20px;
+    width: 300px;
+    height: 500px;
+}
+img{
+    width: 250px;
+    height: 200px;
+}
