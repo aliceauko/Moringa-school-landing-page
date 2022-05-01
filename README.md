@@ -57,7 +57,8 @@ aukoalice@gmail.com |  |
  [Go Back to the top](#Moringa school landing page)
 
 ### Live Link
--Click the live link at the about section in the main branch
+-Click the live link at the about section in the main branch or direct link below
+https://github.com/aliceauko/Moringa-school-landing-page/moringa.html
 
 
 ###Technology Used
